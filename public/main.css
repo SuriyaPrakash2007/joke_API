@@ -1,0 +1,79 @@
+h1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 60px;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+.abc{
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+}
+
+#programming {
+    background-color: rgb(222, 159, 41);
+    border: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+#programming:hover{
+    background-color: rgb(196, 138, 31);
+}
+
+#any {
+    background-color: rgb(55, 165, 55);
+    border: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+#any:hover{
+    background-color: rgb(46, 126, 46);
+}
+
+#spooky {
+    background-color: rgb(77, 26, 174);
+    border: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#spooky:hover{
+    background-color: rgb(67, 30, 134);
+}
+
+#christmas {
+    background-color: rgb(255, 98, 0);
+    border: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+#christmas:hover{
+    background-color: rgb(211, 89, 13);
+}
+
+.options{
+    text-align: center;
+    margin-top: 60px;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}

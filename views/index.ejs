@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokes</title>
+    <link rel="stylesheet" type="text/css" href="main.css" >
+</head>
+<body>
+    <form method="get" >
+        <div>
+            <h1>Jokes</h1>
+        </div>
+        <div class="abc">
+            <img style="width: 250px;" src="images/laughter.png">
+        </div>
+        <div class="options">
+            <input id="programming" type="submit" value="Programming" formaction="/programming-jokes">
+            <input id="any" type="submit" value="Any" formaction="/any-jokes">
+            <input id="christmas" type="submit" value="Christmas" formaction="/christmas-jokes">
+            <input id="spooky" type="submit" value="Spooky" formaction="/spooky-jokes">
+        </div>
+        <br><br>
+        <div>
+            <p>
+                <%= joke %>
+            </p>
+        </div>
+    </form>
+</body>
+</html>
